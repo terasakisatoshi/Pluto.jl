@@ -935,14 +935,14 @@ pluto-cell.errored > pluto-trafficlight {
 pluto-cell.queued > pluto-trafficlight {
     background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 8px, rgba(0, 0, 0, 0.1) 8px, rgba(0, 0, 0, 0.1) 16px);
     background-clip: content-box;
-    animation: 1000s linear 0s infinite running scrollbackground;
+    /* animation: 1000s linear 0s infinite running scrollbackground; */
     background-size: 4px 22.62741699797px; /* 16 * sqrt(2) */
 }
 
 pluto-cell.running > pluto-trafficlight {
     background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 8px, rgba(0, 0, 0, 0.2) 8px, rgba(0, 0, 0, 0.2) 16px);
     background-clip: content-box;
-    animation: 1000s linear 0s infinite running scrollbackground;
+    /* animation: 1000s linear 0s infinite running scrollbackground; */
     background-size: 4px 22.62741699797px; /* 16 * sqrt(2) */
 }
 
@@ -955,14 +955,14 @@ pluto-cell.queued.errored > pluto-trafficlight {
         hsla(0, 70%, 80%, 0.05) 16px
     );
     background-clip: content-box;
-    animation: 1000s linear 0s infinite running scrollbackground;
+    /* animation: 1000s linear 0s infinite running scrollbackground; */
     background-size: 4px 22.62741699797px; /* 16 * sqrt(2) */
 }
 
 pluto-cell.running.errored > pluto-trafficlight {
     background: repeating-linear-gradient(-45deg, hsla(0, 100%, 80%, 1), hsla(0, 100%, 80%, 1) 8px, hsla(0, 70%, 80%, 0.7) 8px, hsla(0, 70%, 80%, 0.7) 16px);
     background-clip: content-box;
-    animation: 1000s linear 0s infinite running scrollbackground;
+    /* animation: 1000s linear 0s infinite running scrollbackground; */
     background-size: 4px 22.62741699797px; /* 16 * sqrt(2) */
 }
 
@@ -1137,12 +1137,12 @@ pluto-cell:focus-within > pluto-runarea,
 pluto-cell.code_differs > pluto-runarea {
     opacity: 100%;
 }
-
+/* 
 pluto-cell.code_differs > pluto-runarea > button {
     animation-name: 👀;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-}
+} */
 
 @keyframes 👀 {
     0%,
